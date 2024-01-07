@@ -5,7 +5,7 @@ public class StudentGradeCalculator
     public static void main(String[]args)
     {
       Scanner sc=new Scanner(System.in);
-      System.out.println("STUDENT GRADE MANAGEMENT SYSTEM\n");
+      System.out.println("STUDENT GRADE CALCULATOR\n");
       int NoSubjects=0;
       while(true)
       {
