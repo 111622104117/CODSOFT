@@ -67,6 +67,7 @@ class bankAccount
 public class ATM
 {
     public static void main(String[] args) {
+        System.out.println(" ----- ATM ----- ");
         Scanner scanner = new Scanner(System.in);
         bankAccount userAccount = new bankAccount(1000.0);
         ATMachine atm = new ATMachine (userAccount);
